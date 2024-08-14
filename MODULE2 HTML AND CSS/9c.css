@@ -1,0 +1,129 @@
+.navbar{
+    display:flex;
+    background-color:rgb(233, 226, 226);
+    justify-content:space-between;
+}
+.navbar ul{
+    display:flex;
+}
+ul li{
+    list-style-type:none;
+    margin:10px;
+    padding:10px 20px;
+ } 
+
+
+
+.table{
+    
+    height:100vh;
+    background-image:url("architect.jpg");
+display:flex;
+align-items: center;
+justify-content:center;
+
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+li:hover{
+    background-color:rgb(224, 66, 38);
+}
+.table p{
+    font-size:40px;
+}
+b{
+    background-color:darkslategrey;
+    padding:5px 10px;
+}
+b:hover{
+    background-color:brown;
+}
+.projects> h2{
+    padding:60px 40px;
+    font-size:30px;
+    font-weight:400;
+}
+.house{
+    display:flex;
+    gap: 20px;
+margin: 20px;
+}
+.house > div{
+    position: relative;
+}
+.house > div button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:20px ;
+    border:none;
+    background-color:rgba(10, 90, 104, 0.795);
+    padding:10px;
+}
+    .house div img{
+        width: 100%;
+    }
+    .about> h2{
+        padding:60px 40px;
+        font-size:30px;
+        font-weight:400;
+    }
+.lorem> p{
+        font-size:20px;
+        margin:7px 5px;
+}
+.mani{
+    display:flex;
+    gap:20px;
+    margin:20px;
+    width:100%;
+
+}
+.mani img{
+    width: 100%;
+}
+.ceo p:nth-child(3){
+color: gray;
+}
+.mani h3{ 
+    background-color:rgb(138, 128, 128);
+    padding:10px 15px;
+    text-align:center;
+}
+.mani h3:hover{
+    background-color:aqua;
+} 
+.contact h1 {
+    margin:50px 30px;
+    font-weight:300;
+}
+.mani2{
+    margin:30px 40px;
+}
+.mani2 p{
+    margin:25px 0;
+}
+
+.map{
+    margin: 40px 30px 0 30px;
+}
+.map img{
+
+     width:100%;
+}
+.mani3 input{
+    margin:5px 3px;
+    width:100%;
+    padding:5px 2px;
+}
+.mani4 button{
+    margin:20px 5px;
+    padding:7px 8px;
+    background-color:rgb(141, 131, 131);
+
+}
+.mani4 button:hover{
+    background-color:aquamarine;
+}
